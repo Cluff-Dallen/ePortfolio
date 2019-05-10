@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+/* Headers */
+
+h1,
+h2,
+h3,
+h4 {
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Body */
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* Buttun */
+
+button {
+    background-color: #051938;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+/* Image */
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Classes */
+
+.Who img {
+    border-color: #FFFFFF;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.Who,
+.Who h1,
+.Who h3 {
+    background-color: #002255;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.MyInfo {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+/* Menu */
+
+.Menu {
+    background-color: #051938;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Menu li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: #FFFFFF
+}
